@@ -7,11 +7,11 @@ gulp.task('htmlReplace',function(){
         'import': {
                 src:null,
                 tpl: 
-                '<link rel="import" href="../../polymer/polymer.html">\n'
-                +'<link rel="import" href="../../paper-input/paper-textarea.html">'
+                '<link rel="import" href="../polymer/polymer.html">\n'
+                +'<link rel="import" href="../paper-input/paper-textarea.html">'
         }
     }))
-    .pipe(gulp.dest('dist/'));
+    .pipe(gulp.dest(''));
 });
 
 
